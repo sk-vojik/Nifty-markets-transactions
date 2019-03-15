@@ -71,7 +71,7 @@ Example return from /api/users/1/transactions/1
 
 ## POST Transaction to Transaction List ##
 
-This is where the fun begins. Here, the front end hardly has to do with updating state, the POST will do it all. When a POST is made, the transaction is recorded, noting who the buyer and the seller are, and for what price. After the POST is done, the buyer and seller will both have a transaction on their transaction list, with all the details of the transaction. Also, the item will be automatically updated, giving the item a new `userId` and `username` of the buyer, as well as setting the availability to false.
+This is where the fun begins. Here, the front end hardly has to do with updating state, the POST will do it all. When a POST is made, the transaction is recorded, noting who the buyer and the seller are, and for what price. After the POST is done, the buyer and seller will both have a new transaction on their transaction list, with all the details of the transaction. Also, the item will be automatically updated, giving the item a new `userId` and `username` of the buyer, as well as setting the availability to false.
 
 URL: /api/users/:id/transactions
 
