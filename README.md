@@ -80,7 +80,7 @@ Example POST, user 1 (scott) will buy item 19 from quinn:
 ```
 {
 	"buyerId": 1,
-	"sellerId": 9,     //---This is equivelant to the userId on the item.
+	"sellerId": 9,     //---This is the userId on the item that's for sale
 	"itemId": 19
 }
 ```
