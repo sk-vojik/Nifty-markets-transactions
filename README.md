@@ -96,7 +96,6 @@ If successfully, you will receive a success message, along with a `newTransactio
             "buyerId": 1,
             "sellerId": 9,
             "itemId": 19,
-            "transaction_type": null
         }
     ]
 }
